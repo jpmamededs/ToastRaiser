@@ -1,0 +1,42 @@
+{% extends 'base2.html' %}
+
+{% load static %}
+
+{% block content %}
+
+<head>
+    <link rel="stylesheet" href="{% static 'css/download.css' %}">
+</head>
+
+<div class="container">
+    <p class="maintext"><i class="bi bi-download"></i>Downloads</p>
+    <div class="holder">
+        <div class="section">
+            <p class="desktoptext">Desktop<i class="bi bi-pc-display"></i></p>
+            <ul class="sectionlist">
+                <li class="listitem"><a href="#" class="downloadlink"><i class="bi bi-file-earmark-arrow-down-fill"></i></i>Download 1.0.2</a></li>
+                <li class="listitem"><a href="#" class="downloadlink"><i class="bi bi-file-earmark-arrow-down-fill"></i></i>Download 1.0.1</a></li>
+                <li class="listitem"><a href="#" class="downloadlink"><i class="bi bi-file-earmark-arrow-down-fill"></i></i>Download 1.0.0</a></li>
+            </ul>
+        </div>
+        <div class="section">
+            <p class="desktoptext">Android<i class="bi bi-android2"></i></p>
+            <ul class="sectionlist">
+                <li class="listitem"><a href="#" class="downloadlink"><i class="bi bi-file-earmark-arrow-down-fill"></i></i>Download 1.0.2</a></li>
+                <li class="listitem"><a href="#" class="downloadlink"><i class="bi bi-file-earmark-arrow-down-fill"></i></i>Download 1.0.1</a></li>
+                <li class="listitem"><a href="#" class="downloadlink"><i class="bi bi-file-earmark-arrow-down-fill"></i></i>Download 1.0.0</a></li>
+            </ul>
+        </div>
+        <div class="section" id="lastsection">
+            <p class="desktoptext">iOS<i class="bi bi-apple"></i></p>
+            <ul class="sectionlist">
+                <li class="listitem"><a href="#" class="downloadlink"><i class="bi bi-file-earmark-arrow-down-fill"></i></i>Download 1.0.2</a></li>
+                <li class="listitem"><a href="#" class="downloadlink"><i class="bi bi-file-earmark-arrow-down-fill"></i></i>Download 1.0.1</a></li>
+                <li class="listitem"><a href="#" class="downloadlink"><i class="bi bi-file-earmark-arrow-down-fill"></i></i>Download 1.0.0</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}

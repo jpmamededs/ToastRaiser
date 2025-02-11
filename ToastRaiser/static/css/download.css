@@ -1,0 +1,61 @@
+.container{
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.maintext{
+    font-size: 3rem;
+    color: #e51137;
+    font-weight: 550;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+.holder{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    margin-top: 3rem;
+    border-right: 0.05rem solid rgb(216, 216, 216);
+    padding-right: 4rem;
+}
+
+.sectionlist{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding-top: 2rem;
+}
+
+.desktoptext{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2.5rem;
+    color: #e51137;
+    font-weight: 550;
+}
+
+.downloadlink{
+    text-decoration: underline;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+#lastsection{
+    border: none;
+    padding-right: 0;
+    width: 30%;
+}

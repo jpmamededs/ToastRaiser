@@ -7,4 +7,7 @@ def paginaprincipal(request):
 def about(request):
     return render(request, 'about.html')
 
+def download(request):
+    return render(request, 'download.html')
+
 
