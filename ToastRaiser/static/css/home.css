@@ -54,5 +54,43 @@ body{
 
 .trynow:hover{
     background-color: rgb(205, 205, 205);
-    
+}
+
+.details{
+    background-color: white;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    list-style: none;
+}
+
+.card{
+    width: 18rem;
+    padding: 1rem;
+    border-width: 0.15rem;
+    border-color: #e51137;
+}
+
+.horizontal-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bold;
+    color: #e51137;
+}
+
+.card-title{
+    width: 50%;
+    margin: 0;
+}
+
+.bi-cup-straw, .bi-person-arms-up, .bi-emoji-expressionless-fill, .bi-hand-thumbs-up-fill{
+    font-size: 2rem;
 }
