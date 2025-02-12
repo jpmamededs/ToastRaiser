@@ -28,6 +28,12 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
+}
+
+.acenando{
+    height: 20rem;
+    width: auto;
 }
 
 .holder{
@@ -115,4 +121,32 @@ ul{
     font-size: 3rem;
     font-weight: 550;
     color: #e51137;
+}
+
+.jagged-border {
+    width: 100%;
+    color: #e51137;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.daydrinking-throne-text{
+    width: 30%;
+    font-size: 3rem;
+}
+
+.daydrinking-img{
+    height: 17rem;
+    width: auto;
+    fill: #e51137;
+}
+
+.jagged-border2 {
+    width: 100%;
+    height: 40rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

@@ -13,4 +13,7 @@ def download(request):
 def contact(request):
     return render(request, 'contact.html')
 
+def progress(request):
+    return render(request, 'progress.html')
+
 

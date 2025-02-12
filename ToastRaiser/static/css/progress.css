@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: scroll;
+    padding-top: 2rem;
+}
+
+.text-and-picture{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+
+}
+
+hr{
+    border-width: 1rem;
+    min-width: 100%;
+
+}
+
+.updatecontent{
+    font-size: 1.5rem;
+}
+
+
+.pictureholder{
+    height: 12rem;
+    width: 20rem;
+    border-radius: 1rem;
+    background-color: red;
+}
+
+.uppersnapshots{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
+    gap: 20rem;
+    width: 100%;
+}
