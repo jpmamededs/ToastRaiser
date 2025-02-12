@@ -10,4 +10,7 @@ def about(request):
 def download(request):
     return render(request, 'download.html')
 
+def contact(request):
+    return render(request, 'contact.html')
+
 
